@@ -1,7 +1,7 @@
 const express = require("express");
 // TODO: add a stripe key
 const app = express();
-const stripe = require("stripe")("sk_test_51K9UHtSFq9mnjfLYEOjDyH41X6iqfYG277TNLuChrB8lff4i8wBDUseN2QcBbRWS3N1cUAEKXujtzMTe73nWgWOV00YWBYfHj2");
+const stripe = require("stripe")("sk_test_51Kdb6pSAgZAMy2B2EX8MwWM3D079T4S7t95wWCUqmO8QIldPik3EPt9RnjdHWP9o3sLNnBW6fFyfwo99HgVsoIWb0043k74OaA");
 const uuid = require("uuid");
 
 // middleware
